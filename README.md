@@ -62,6 +62,15 @@ On a spécifié un fichier CSV ('experiment.csv') comme destination des résulta
 
 On a utilisé des chemins relatifs pour l'ajout de jeux de données dans le but de faciliter l'exécution de la même expérience sur différentes machines.
 
+
+## Analyse des résultats 
+
+On exécute l'expérience :
+
+![Run experiment](img/run_experiment.png)
+
+Et on analyse les résultats à l'aide du ficihier CSV ou du tab d'analyse dans Weka Experimenter.
+
 ## Useful resources 
 
 * [Weka documentation](https://waikato.github.io/weka-wiki/documentation/)

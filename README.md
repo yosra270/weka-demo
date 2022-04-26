@@ -1,13 +1,9 @@
 # Weka Demo
 
-## What is Weka ?
-### What is Weka Explorer ?
-### What is Weka Experimenter ?
-
-## Comparaison de différents classifieurs pour plusieurs jeux de données
+On va utiliser Weka Explorer et Weka Experimenter pour analyser qq jeux de données et comparer les performances des différents classifieurs sur chacun des jeux de données.
 
 
-### Présentation globale des jeux de données utilisés
+## Présentation globale des jeux de données utilisés
 
 * **Iris dataset** :
 
@@ -47,13 +43,12 @@ Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attr
 
 
 
-### Présentation globale des classifieurs utilisés
+## Classifieurs utilisés
 
-* Random Forest
-* J48
-* Naive Bayes
-* IBK
-
+* **Random Forest**
+* **J48**
+* **Naive Bayes**
+* **IBk** with <img src="https://render.githubusercontent.com/render/math?math=k \in {1, 3, 5, 10}">
 
 
 
@@ -61,4 +56,4 @@ Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attr
 ## Useful resources 
 
 * [Weka documentation](https://waikato.github.io/weka-wiki/documentation/)
-* [Weka YouTube Channel](https://www.youtube.com/user/WekaMOOC)
+* [Weka YouTube channel](https://www.youtube.com/user/WekaMOOC)

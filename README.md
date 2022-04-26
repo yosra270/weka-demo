@@ -52,7 +52,15 @@ Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attr
 
 ## Weka Setup
 
+On va tester les classifieurs avec une validation croisée de 10 folds. Afin d'obtenir des résultats statistiquement significatifs, on va répeter l'exécution de chaque algorithme 10 fois ➡️ On aura 100 appels de chaque classificateur avec des données d'apprentissage et testés par rapport aux données de test.
+
+On a préféré d'itérer d'abord sur les algorithmes que sur les jeux de données i.e. on va tester chaque algorithme sur tous les jeux de données avant de passer au algorithme suivant ➡️ De cette façon, on va compléter les résultats de tous les jeux de données pour un algorithme le plus tôt possible.
+
 ![Weka Setup](img/weka_setup.png)
+
+On a spécifié un fichier CSV ('experiment.csv') comme destination des résultats de l'exécution de l'expérience.
+
+On a utilisé des chemins relatifs pour l'ajout de jeux de données dans le but de faciliter l'exécution de la même expérience sur différentes machines.
 
 ## Useful resources 
 

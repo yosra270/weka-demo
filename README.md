@@ -30,7 +30,7 @@ Chaque instance est décrite par 9 attributs numériques continues et peut appar
 ![Présentation globale du jeux de données GLASS](img/glass_dataset/description_globale.png)
 
 
--> 'build wind float' et 'build wind non-float' sont les classes majoritaires.
+➡️ 'build wind float' et 'build wind non-float' sont les classes majoritaires.
 
 * **Weather dataset** : 
 
@@ -47,11 +47,12 @@ Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attr
 
 * **Random Forest**
 * **J48**
-* **Naive Bayes**
 * **IBk** with <img src="https://render.githubusercontent.com/render/math?math=k \in {1, 3, 5, 10}">
 
 
 ## Weka Setup
+
+![Weka Setup](img/weka_setup.png)
 
 ## Useful resources 
 

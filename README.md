@@ -70,14 +70,25 @@ On exécute l'expérience :
 ![Run experiment](img/run_experiment.png)
 
 Et on analyse les résultats à l'aide du ficihier CSV ou du l'analyseur de Weka. 
+
 On commence par choisir un test base :
 
 ![Choose test base](img/choose_test_base.png)
 
+On test la performance des algorithmes avec test base = IBk -k 3.
+
 ![Test base IBk with k = 3](img/test_base_ibk_3.png)
 
 
+On test la performance des algorithmes avec test base = J48.
+
 ![Test base J48](img/test_base_j48.png)
+
+On remarque que Random Forest donne une meilleure performance que IBk avec k = 3 et J48 pour le jeux de données GLASS alors que l'algorithme IBk avec k = 10 donne une pire performance que IBk avec k = 3 pour le même jeu de données GLASS.
+
+On relance le test de performance avec le mode 'ranking' pour classer les algorithmes selon leurs gains ou pertes statiquement signigfiants.
+
+![Ranking performances](img/ranking.png)
 
 ## Useful resources 
 

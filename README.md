@@ -86,9 +86,11 @@ On test la performance des algorithmes avec test base = J48.
 
 On remarque que Random Forest donne une meilleure performance que IBk avec k = 3 et J48 pour le jeux de données GLASS alors que l'algorithme IBk avec k = 10 donne une pire performance que IBk avec k = 3 pour le même jeu de données GLASS.
 
-On relance le test de performance avec le mode 'ranking' pour classer les algorithmes selon leurs gains ou pertes statiquement signigfiants.
+Pour les deux autres jeux de données, on remarque qu'il n'y a pas de différences statistiquement significatives. Mais, les classifieurs IBk avec k = 5 ou 10 donnent la meilleure performance pour le jeux de données IRIS alors que le classifieur IBk avec k = 5 donne les meilleurs résultats pour le jeu de données Weather.
 
-![Ranking performances](img/ranking.png)
+## Conclusion
+
+La performance d'un classifieur dépend du jeu de données.
 
 ## Useful resources 
 

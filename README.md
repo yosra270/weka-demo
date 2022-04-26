@@ -41,3 +41,24 @@ Chaque instance est décrite par 9 attributs numériques continues et peut appar
 Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attributs ('outlook', 'temperature', 'humidity', 'windy') et appartient à une des deux classes (play or not).
 
 ![Présentation globale du jeux de données WEATHER](img/weather_dataset/description_globale.png)
+
+
+
+
+
+
+### Présentation globale des classifieurs utilisés
+
+* Random Forest
+* J48
+* Naive Bayes
+* IBK
+
+
+
+
+
+## Useful resources 
+
+* [Weka documentation](https://waikato.github.io/weka-wiki/documentation/)
+* [Weka YouTube Channel](https://www.youtube.com/user/WekaMOOC)

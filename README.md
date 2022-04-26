@@ -69,7 +69,15 @@ On exécute l'expérience :
 
 ![Run experiment](img/run_experiment.png)
 
-Et on analyse les résultats à l'aide du ficihier CSV ou du tab d'analyse dans Weka Experimenter.
+Et on analyse les résultats à l'aide du ficihier CSV ou du l'analyseur de Weka. 
+On commence par choisir un test base :
+
+![Choose test base](img/choose_test_base.png)
+
+![Test base IBk with k = 3](img/test_base_ibk_3.png)
+
+
+![Test base J48](img/test_base_j48.png)
 
 ## Useful resources 
 

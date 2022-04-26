@@ -4,7 +4,6 @@
 ### What is Weka Explorer ?
 ### What is Weka Experimenter ?
 
-
 ## Comparaison de différents classifieurs pour plusieurs jeux de données
 
 
@@ -18,8 +17,10 @@ sorte d’iris à laquelle elle appartient : Iris-setosa, Iris-versicolor et Iri
 
 ![Présentation globale du jeux de données IRIS](img/iris_dataset/description_globale.png)
 
--> Tous les attributs de ce jeux de données sont numériques. 
--> Chacune des 3 classes contient 1/3 des instances.
+➡️  Tous les attributs de ce jeux de données sont numériques.
+
+
+➡️  Chacune des 3 classes contient 1/3 des instances.
 
 * **Glass dataset** : 
 
@@ -36,5 +37,7 @@ Chaque instance est décrite par 9 attributs numériques continues et peut appar
 -> 'build wind float' et 'build wind non-float' sont les classes majoritaires.
 
 * **Weather dataset** : 
+
+Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attributs ('outlook', 'temperature', 'humidity', 'windy') et appartient à une des deux classes (play or not).
 
 ![Présentation globale du jeux de données WEATHER](img/weather_dataset/description_globale.png)

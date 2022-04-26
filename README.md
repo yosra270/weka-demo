@@ -51,7 +51,7 @@ Le jeux de données *Weather* contient 14 instances. Chacune décrite par 4 attr
 * **IBk** with <img src="https://render.githubusercontent.com/render/math?math=k \in {1, 3, 5, 10}">
 
 
-
+## Weka Setup
 
 ## Useful resources 
 
